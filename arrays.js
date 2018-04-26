@@ -7,10 +7,10 @@ return ['chocolateBarsName',...name]
 
 }
 
-function destructivelyAddElementToBeginningOfArray(chocolateBarsName, name) {
+function destructivelyAddElementToBeginningOfArray(chocolateBarsNamed, name) {
 
- chocolateBarsName.unshift(name)
- return chocolateBarsName
+ chocolateBarsNamed.unshift(name)
+ return chocolateBarsNamed
 
 }
 
