@@ -15,7 +15,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBarsNamed, name) {
 }
 
 function addElementToEndOfArray(chocolateBarsNames, name) {
-  return [...name,chocolateBarsNames]
+  return ...name,chocolateBarsNames
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBarsNames, name) {
