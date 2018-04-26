@@ -14,11 +14,11 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, name) {
 
 }
 
-function addElementToEndOfArray(chocolateBarsNames, name) {
-  return [...name,chocolateBarsNames]
+function addElementToEndOfArray(chocolateBars, name) {
+  return [...name,chocolateBars]
 }
 
-function destructivelyAddElementToEndOfArray(chocolateBarsNames, name) {
+function destructivelyAddElementToEndOfArray(chocolateBars, name) {
   chocolateBarsNames.push(name)
-  return chocolateBarsNames
+  return chocolateBars
 }
